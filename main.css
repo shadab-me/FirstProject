@@ -1,0 +1,147 @@
+body{
+padding: 0;
+margin: 0;
+}
+.toggle{
+    background-color:;
+    width: 100%;
+    height: 40px;
+    font-size: 35px;
+    text-align: right;
+    display: none;
+
+}
+.toggle i{
+    color: white;
+    margin-bottom: 5px;
+}
+.btn{
+	color: white;
+    background-color: aqua;
+	position: absolute;
+	top:85%;
+	left: 30%;
+	transform: translate(-50%,-50%);
+    border-radius: 5px;
+    line-height: 40px;
+    width: 120px;
+}
+
+.btn:hover{
+	 background-color: skyblue;
+	 color: white;
+}
+#bt{
+    left: 45%;
+}
+
+.header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bg.jpg);
+    background-position: center;
+    display:table;
+	width: 100%;
+	height: 820px;
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+  
+
+.navigation-bar ul{
+	list-style: none;
+	
+
+}
+.navigation-bar ul li{
+
+	display: inline-block;;
+	float: right;
+	margin-right: 20px;
+	background:none;
+	cursor: pointer;
+	text-align: center;
+	line-height: 40px;
+    width: 120px;
+    height: 40px;
+
+
+
+
+}
+.navigation-bar ul li a{
+text-decoration: none;
+display: block;
+color: white;
+    width: 120;
+    height: 60;
+
+}
+.navigation-bar ul li:hover{
+background-color:blue;
+}
+.logo{
+	float: left;
+}
+.hero{
+	color: white;
+	position: absolute;
+	top:70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+    display: table-cell;
+}
+
+.col-md-4{
+    text-align: justify;
+}
+#back{
+    background-image: url(ali.jpg);
+    width:100%;
+    height: 480px;
+    height: 480px;
+    background-attachment: fixed;
+    background: cover;
+    color: white;
+    margin-top: 30px;
+}
+.news{
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(bgnews.jpg);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 50px;
+
+}
+
+.news h3{
+    
+    text-align: center;
+    margin-top: 150px;
+}
+#newssection{
+    color: white;
+}
+#start{
+    width: 60px;
+    height: 30px;
+}
+@media (max-width: 776px){
+.toggle{
+      display: block;
+      
+      color: black;
+
+
+
+}
+.hero h1{
+	color:white;
+	top: 90%;
+	font-family: Georgia;
+
+}
+.btn{
+	display: none;
+}
+}

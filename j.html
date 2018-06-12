@@ -1,0 +1,64 @@
+<html>
+<head>
+    <title>my</title>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $("img").mouseenter(function(){
+            $(this).css({
+                'transform': 'scale(1.5,2)',
+                'transition': '5s ease'
+            });
+        });
+         $("img").mouseout(function(){
+            $(this).css({
+                'transform': 'scale(1,1)',
+                'transition': '2  s ease'
+            });
+             
+        });
+        $(function(){
+         $("para").mouseenter(function(){
+          $(this).css({
+              'transform':'sacle(2,2)',
+              'transtion': '5s ease'
+          });  
+         });
+         });   
+        
+         });
+        
+$(document).ready(function(){
+  $("#click").click(function(){
+    $(".p").slideToggle();
+  });
+});
+    </script>
+    
+    <style>
+    
+        p{
+            background-color: red;
+            height: 400px;
+            font-size: 50px;
+            pointer: cursor;
+            
+        }
+    
+    </style>
+    </head>
+
+<body>
+    <div id="click">
+    <h1>hello</h1>
+    </div>
+    <div class="p">
+      Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containingL
+
+
+
+    </div>
+    <img src="25padmavati9.jpg" width="100%;">
+    
+    </body>
+</html>
